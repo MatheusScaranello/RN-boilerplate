@@ -3,10 +3,10 @@ import React from "react";
 import styles from "./styles";
 import Title from "../../components/Title";
 
-export default function Home() {
+export default function Profile() {
   return (
     <View style={styles.container}>
-      <Title title="Home" />
+      <Title title="Profile" />
     </View>
   );
 }
