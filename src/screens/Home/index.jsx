@@ -10,12 +10,6 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Title title="Home" />
-      <TouchableOpacity
-        style={styles.button}
-        onPress={navigation.navigate("Category")}
-      >
-        <Text>Go to Category</Text>
-      </TouchableOpacity>
     </View>
   );
 }

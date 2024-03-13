@@ -9,12 +9,6 @@ export default function Category() {
   return (
     <View style={styles.container}>
       <Title title="Category" />
-      <TouchableOpacity
-        style={styles.button}
-        onPress={navigation.navigate("Home")}
-      >
-        <Text>Go to Home</Text>
-      </TouchableOpacity>
     </View>
   );
 }
